@@ -1,0 +1,96 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(IMG-20240309-WA0040.jpg) no-repeat;
+    background-size:contain;
+    background-position: center;
+    background-color: #93887D;
+    margin: 0px;
+ }
+#home{
+    background-color: rgba(255, 255, 255, 40%);
+    border-radius: 20px;
+    height: 562px;
+    width: 573px;
+    justify-content:center ;
+    position: relative;
+    top:10px;
+
+}
+#login{
+    font-weight:500;
+    color: #470C00;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: right;
+    position: relative;
+    left:780px;
+    top:0.2px;
+}
+#login:hover{
+    font-weight: bolder;
+    color:#ffffff;
+    background-color: rgba(71, 12, 0);
+    border-radius: 15px;
+}
+#contacts{
+    width:724px;
+    height:23px;
+    background-color: #6f4026;
+    position:relative;
+    top:509px;
+    right:75px;
+    text-align: center;
+}
+.cont{
+  color:#ffffff;
+  text-decoration:none;
+}
+.cont:hover{
+    text-decoration: underline;
+}
+/* .sidebar{
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+    left: 0px;
+}
+.sidebar a{
+    display:block;
+    color:#ffffff;
+    height: 65px;
+    width: 100%;
+    line-height: 65px;
+    padding-left: 30px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-top: black;
+
+}
+  */
+  #check{
+    display: none; 
+ }
+ label #list, label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background: #470C00;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    font-size: 29px;
+    border: 1px solid #470C00;
+    margin: 15px 30px;
+    border-radius: 5px;
+ }
+ label #cancel{
+     opacity: 0;
+     visibility: hidden;
+ }
+#check:checked ~ label #list{
+    margin-left: 245px;
+ 
+ }  

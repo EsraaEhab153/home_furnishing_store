@@ -1,0 +1,279 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(IMG-20240309-WA0040.jpg) no-repeat;
+    background-size:contain;
+    background-position: center;
+    background-color: #93887D;
+ }
+#home{
+    background-color: rgba(255, 255, 255, 40%);
+    border-radius: 20px;
+    height: 539px;
+    width: 573px;
+    justify-content:center ;
+    position: relative;
+    top:10px;
+}
+#login{
+    font-weight:500;
+    color: #470C00;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: right;
+    position: relative;
+    left:780px;
+    top:0.2px;
+}
+#login:hover{
+    font-weight: bolder;
+    color:#ffffff;
+    background-color: #6f4026;
+    border-radius: 15px;
+}
+#contacts{
+    width:710px;
+    height:23px;
+    background-color: #6f4026;
+    position:relative;
+    top:544px;
+    right:69px;
+    text-align: center;
+}
+.cont{
+  color:#ffffff;
+  text-decoration:none;
+}
+.cont:hover{
+    text-decoration: underline;
+}
+.buttons{
+    background-color: rgba(111,64,38,36%);
+    color: white;
+    width:61px;
+    height:61px;
+    border-radius: 61px;
+    font-size: 42px;
+    
+}
+.buttons:hover{
+    background-color: rgb(111,64,38);
+    color: white;
+    cursor: pointer;
+    
+}
+.features button{
+    display:block;
+}
+.features h3{
+    display:inline;
+}
+.features i{
+    padding-top:2px;
+}
+.bt1{
+    position: relative;
+    top: 182px;
+    left: 62px 
+}
+.bt2{
+    position: relative;
+    top: 80px;
+    left: 201px;
+}
+.bt3{
+    position: relative;
+    bottom:18px;
+    left: 332px;
+}
+.bt4{
+    position: relative;
+    bottom: 121px;
+    left: 450px;
+}
+
+.bt5{
+    position: relative;
+    bottom:98px;
+    left: 62px;
+}
+.bt6{
+    position: relative;
+    bottom: 199px;
+    left: 201px;
+}
+.bt7{
+    position: relative;
+    bottom: 300px;
+    left: 332px;
+}
+.bt8{
+    position: relative;
+    bottom: 401px;
+    left: 452px;
+}
+#t1{
+   position: relative;
+   top: 175px; 
+   left:54px;
+}
+#t2{
+   position: relative;
+   top: 74px; 
+   left:210px;
+ }
+#t3{
+    position: relative;
+    bottom: 27px; 
+    left:338px; 
+ }
+#t4{
+    position: relative;
+    bottom: 128px;
+    left:454px;  
+ }
+#t5{
+    position: relative;
+    bottom: 96px;
+    left: 46px   
+ }
+#t6{
+    position: relative;
+    bottom: 197px;
+    left: 211px;  
+ }
+#t7{
+    position: relative;
+    bottom: 298px;
+    left: 328px;  
+ }
+#t8{
+    position: relative;
+    bottom: 399px;
+    left: 451px;  
+ } 
+.social{
+    position: relative;
+    bottom:360px;
+    text-align: center;
+ }
+.social a{
+    color: #ffffff;
+    background-color:rgba(111,64,38,36%);
+    font-size: larger;
+    margin:8px;
+    padding:4px;
+    border-radius: 42px;
+} 
+.social a:hover{
+    background-color: #6f4026;
+}
+
+.sidebar{
+    position: relative;
+    bottom: 933px;
+    left: -731px;
+    width:240px;
+    background-color: #6f4026;
+    height: 626px; 
+    transition: all .5s ease;
+}
+.sidebar a{
+    display:block;
+    color:#ffffff;
+    height: 60px;
+    width: 100%;
+    line-height: 65px;
+    padding-left: 30px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-top:1px solid black;
+    border-left: 5px solid transparent;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif ;
+    transition: all .5s ease;
+    text-decoration: none;
+}
+.sidebar a:hover{
+    border-left: 18px solid #ffffff;
+    color: black;
+
+}
+.sidebar a i{
+    font-size: 23px;
+    margin-right: 16px;
+
+}
+.sidebar a span{
+    letter-spacing: 1px;
+}
+#check{
+   display: none; 
+}
+label #list, label #cancel{
+   position: absolute;
+   left: -371px;
+   top: -48px;
+   cursor: pointer;
+   background: #6f4026;
+   height: 45px;
+   width: 45px;
+   text-align: center;
+   line-height: 40px;
+   color: #ffffff;
+   font-size: 29px;
+   border: 1px solid #470C00;
+   margin: 15px 30px;
+   border-radius: 5px;
+   transition: all .5s ease;
+}
+label #cancel{
+    opacity: 0;
+    visibility: hidden;
+}
+#check:checked ~ label #list{
+    margin-left: 230px;
+    opacity: 0;
+    visibility: hidden;
+ 
+ }  
+#check:checked ~ label #cancel{
+    margin-left: 230px;
+    opacity: 1;
+    visibility: visible;
+ 
+ } 
+#check:checked ~ .sidebar{
+    left: -400px;
+} 
+.user{
+    height: 15%;
+    position: inherit;
+    left: 23px;
+}
+.user img{
+    width: 56px;
+    border-radius: 50%;
+    position: inherit;
+    top: 12px;
+
+}
+.user span{
+    font-size: larger;
+    font-weight: bolder;
+    position: inherit;
+    left: 14px;
+    top: -6px;
+    color: white;
+
+}
+#logout:hover{
+    color:red;
+    border-left: 18px solid red;
+}
+#label1{
+    position: relative;
+    display: inline;
+    color: #470C00;
+}

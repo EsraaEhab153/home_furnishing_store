@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background: url(IMG-20240309-WA0040.jpg) no-repeat;
+   background-size:700px;
+   background-position: center;
+   background-color: #93887D;
+   
+   
+
+}
+form h1{
+    color:#470C00;
+    text-align: center;
+    font-size: 40px;
+    position:relative;
+    top:60px;
+    
+}
+form{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 25%);
+    border-radius: 20px;
+    height: 500px;
+    width: 500px;
+    justify-content:center ;
+    margin-top: 20px;
+}
+form input{
+    margin:10px;
+    margin-left:130px;
+    margin-top:10px;
+    background-color:rgba(111,64,38,36%) ;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    top:100px;
+    right:50px;
+    border: 0px;
+    color:#470C00;
+    font-size: 25px;
+    padding: 0 20px;
+    
+}
+
+.submitbtn{
+   background-color:#470C00;
+   color:white;
+   font-size: larger;
+   position: relative;
+   top:120px;
+   left: 50px;
+   width:120px;
+  }
+
+i{
+    color:#470C00;
+    position:relative;
+    top:100px;
+    right: 100px;
+}
+label{
+    color:#470C00;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top:100px;
+}
+#pass{
+    left:300px;
+}
+#username{
+    left:350px;
+}
+#error{
+    position: relative;
+    bottom:277px;
+    right: 17px;
+    background-color:rgba(255, 255, 255, 55%);
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    padding:11px;
+    
+}

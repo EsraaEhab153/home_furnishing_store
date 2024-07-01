@@ -1,0 +1,134 @@
+.searchInputContainer input{
+    width: 100%;
+    height: 54px;
+    font-size: 19px;
+    padding-left: 26px;
+    border: 1px solid #b4b0b0;
+    border-radius: 4px;
+    outline: none;
+}
+.searchResultContainer{
+    margin-top: 20px;
+}
+.productResultContainer{
+    padding: 2px;
+    border: 1px solid #e2e2e2;
+}
+.productResultContainer img{
+    width: 100%;
+    transition: transform .2s;
+}
+.productInfoContainer{
+    position: absolute;
+    width: 19%;
+    color: #fff;
+    font-size: 18px;
+    background: rgba(111,64,38,75%);
+    height: 34px;
+    font-weight: bold;
+    padding: 4px;
+}
+.productResultContainer img:hover{
+    transform: scale(1.1);
+    
+}
+
+.productResultContainer .col-4{
+    padding: 0px !important;
+}
+.productResultContainer:hover{
+    cursor: pointer;
+}
+
+
+/* order container */
+.posOrderContainer{
+    padding:0px !important;
+    border-left:4px solid #3b2114;
+
+}
+.pos_header{
+    text-align:center;
+    background:#6f4026;
+}
+.pos_header .logo{
+    font-size: 57px;
+    font-weight: bold;
+    color: #fff;
+    margin: 29px !important;
+}
+
+.pos_header .timeAndDate{
+    font-size:18px;
+    margin:0px !important;
+    color:#fff;
+
+}
+.alignRight{
+    text-align:right !important;
+}
+
+.setting a{
+    font-size:38px;
+    margin-left:354px;
+    color:#fff !important;
+
+}
+                     
+#pos_item_tbl th{
+    color: black;
+    font-size:16px;
+    position: relative;
+}
+#pos_item_tbl td{
+    font-size:18px;
+    color:#575052;
+}
+#pos_item_tbl tbody tr:nth-child(odd){
+    background:#e2d4cc
+}
+.pos_item_btn{
+    color:#6f4026;
+}
+p.item_total{
+    font-size:28px;
+    padding-left:10px;
+    padding-right:14px;
+}
+span.item_total--value{
+float: right;
+font-weight:bold;
+color:#575052;
+font-size:34px;
+
+}
+span.item_total--label{
+    font-size:22px;
+    margin-top:10px;
+    display:inline-block;
+}
+.checkoutbtncontainer{
+    margin-top:100px;
+    padding:20px;
+
+}
+.checkoutbtn{
+font-size:45px;
+text-align:center;
+display:block;
+border:2px solid #6f4026;
+border-radius:5px;
+color:#6f4026;
+}
+.checkoutbtn:hover{
+    background:#6f4026;
+    color:#fff;
+    transition:0.3s;
+}
+.item_total_container{
+    margin-top:100px;
+
+}
+#pos_item_tbl{
+    width: 105%;
+}
